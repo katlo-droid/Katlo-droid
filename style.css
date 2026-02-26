@@ -7,24 +7,21 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: #6A1B9A;  
-    color: #FFA500;              
-    padding: 20px;
-    text-align: center;
+header .navbar {
+    background-color: #6A1B9A !important;  
 }
 
-header h1 {
-    margin: 0;
+header .navbar-brand {
+    color: #FFA500 !important;             
+    font-weight: bold;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+header .nav-link {
+    color: #FFA500 !important;            
     margin: 0 10px;
 }
 
-nav a:hover {
+header .nav-link:hover {
     text-decoration: underline;
 }
 
@@ -40,16 +37,17 @@ main img {
     display: block;
     margin: 20px 0;
     border: 5px solid #4CAF50;  
-    border-radius: 10px;         
+    border-radius: 10px;      
 }
 
+/* Email links in main */
 main a[href^="mailto:"] {
     color: #FF5722;             
     font-weight: bold;
 }
 
 a {
-    color: #FFA500;            
+    color: #FFA500;           
     text-decoration: none;
 }
 
@@ -57,9 +55,19 @@ a:hover {
     text-decoration: underline;
 }
 
+a.btn-primary {
+    background-color: #FFA500 !important;   
+    border-color: #FFA500 !important;
+}
+
+a.btn-primary:hover {
+    background-color: #FFB733 !important;   
+    border-color: #FFB733 !important;
+}
+
 footer {
-    background-color: #0D1B2A;  
-    color: #FFA500;            
+    background-color: #0D1B2A !important;   
+    color: #FFA500 !important;              
     text-align: center;
     padding: 10px;
     position: fixed;
