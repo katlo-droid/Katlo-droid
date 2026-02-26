@@ -1,27 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    color: #90ee90; 
-    background-color: #000000; 
+    color: #333;
+    background-color: #f9f9f9;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
+
 header {
-    background-color: #7b2cbf;
-    color: #90ee90; 
+    background-color: #4CAF50;
+    color: white;
     padding: 20px;
     text-align: center;
 }
+
 
 header h1 {
     margin: 0;
 }
 
+
 nav a {
-    color: #90ee90; 
+    color: white;
     text-decoration: none;
     margin: 0 10px;
+
 }
 
 nav a:hover {
@@ -42,8 +46,8 @@ main img {
 }
 
 footer {
-    background-color: #111111;
-    color: #90ee90;
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -56,20 +60,21 @@ p {
 }
 
 a {
-    color: #90ee90;
+    color: #4CAF50;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+
 }
 
 img {
-    border: 5px solid #7b2cbf; 
-    border-radius: 10px;
-}
+    border: 5px solid #4CAF50;
+    border-radius: 10px
+
 
 main a[href^="mailto:"] {
-    color: #00ff7f; 
+    color: #ff5722;
     font-weight: bold;
 }
